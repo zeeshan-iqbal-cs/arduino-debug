@@ -26,7 +26,7 @@ void Debug::beginFunc(String funcName){
 
 
 void Debug::endFunc(){
-  this->println(String("----- End-") + className + funcName);
+  this->println(String("----- End-") + className + funcName + "\n");
   this->funcName = "";
   nTab -= 2;
 }
